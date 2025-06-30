@@ -368,4 +368,8 @@ dependencies = [
 modules = [
 	{org = "joachimDenner", packageName = "mysql_rest_api", moduleName = "mysql_rest_api"}
 ]
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> ff28c4538cdb4f0c846ecbef85a326f4d981f3e5

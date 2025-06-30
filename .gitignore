@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ballerina generates this directory during the compilation of a package.
 # It contains compiler-generated artifacts and the final executable if this is an application package.
 target/
@@ -9,3 +10,30 @@ generated/
 # Contains configuration values used during development time.
 # See https://ballerina.io/learn/provide-values-to-configurable-variables/ for more details.
 Config.toml
+=======
+<<<<<<< HEAD
+# Ballerina generates this directory during the compilation of a package.
+# It contains compiler-generated artifacts and the final executable if this is an application package.
+target/
+
+# Ballerina maintains the compiler-generated source code here.
+# Remove this if you want to commit generated sources.
+generated/
+
+# Contains configuration values used during development time.
+# See https://ballerina.io/learn/provide-values-to-configurable-variables/ for more details.
+Config.toml
+=======
+# generated files
+target/
+generated/
+
+# dependencies
+Dependencies.toml
+
+# config files
+Config.toml
+# the config files used for testing, Uncomment the following line if you want to commit the test config files
+#!**/tests/Config.toml
+>>>>>>> 88afbc21d12b9226ba8b8ea1ec1f47cc7b030534
+>>>>>>> ff28c4538cdb4f0c846ecbef85a326f4d981f3e5
