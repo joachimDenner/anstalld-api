@@ -1,6 +1,6 @@
 [package]
 org = "joachimDenner"
-name = "mysql_rest_api"
+name = "anstalld_api"
 version = "0.1.0"
 distribution = "2201.12.7"
 
