@@ -1,13 +1,8 @@
-schemaVersion: '1.2'
-endpoints:
-  - name: anstalld
-    service:
-      port: 9090
-      basePath: /
-    type: REST
-    displayName: anstalld
-    networkVisibilities:
-      - Public
-      - Project
-      - Organization
-    schemaFilePath: swagger.yaml
+schemaVersion: 1.2
+componentType: SERVICE
+name: anstalld-api
+source:
+  type: Ballerina
+  path: .
+build:
+  arguments: []
