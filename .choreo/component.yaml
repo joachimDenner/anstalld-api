@@ -1,8 +1,12 @@
-schemaVersion: 1.2
-componentType: SERVICE
-name: anstalld-api
-source:
-  type: Ballerina
-  path: .
-build:
-  arguments: []
+schemaVersion: "1.2"
+endpoints:
+    - name: anstalld-api
+      displayName: Anstalld REST Endpoint
+      service:
+        basePath: /anstalld
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: openapi.yaml
